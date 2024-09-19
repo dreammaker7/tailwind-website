@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-theme {
+  @apply bg-white dark:bg-gray-900;
+}
+
+.text-theme {
+  @apply text-gray-900 dark:text-white;
+}
+
+.ring-primary {
+  @apply focus:outline-none focus:ring-4 focus:ring-brand-200 dark:focus:ring-brand-300;
+}
+
+.ring-default {
+  @apply focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-600;
+}
+
+.btn-small {
+  @apply inline-flex items-center justify-center rounded-lg text-center text-sm font-medium;
+}
+
+.btn-default {
+  @apply inline-flex items-center justify-center rounded-lg text-center text-base font-medium;
+}
+
+.btn-primary {
+  @apply ring-primary bg-brand-600 text-white hover:bg-brand-700 disabled:pointer-events-none disabled:opacity-50 dark:hover:bg-brand-600 dark:focus:bg-brand-600;
+}
+
+.btn-secondary {
+  @apply ring-default border border-gray-300 text-gray-900 hover:bg-gray-100 focus:bg-gray-100 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700;
+}
+
+.btn-text {
+  @apply ring-default text-gray-900 hover:bg-gray-100 focus:bg-gray-100 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700;
+}
+
+.btn-link {
+  @apply ring-default text-brand-600 decoration-2 hover:underline focus:underline disabled:pointer-events-none disabled:opacity-50 dark:text-brand-500;
+}

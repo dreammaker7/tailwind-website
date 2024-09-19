@@ -1,0 +1,28 @@
+{
+  "common": {
+    "name": "Humming",
+    "copyright": "© 2024 dreammaker7™. All Rights Reserved."
+  },
+  "navigator": {
+    "product": "Product",
+    "product.menu1": "Business Message Service Platform",
+    "product.menu1.desc": "The most mature commercial platform",
+    "product.menu2": "SDK",
+    "product.menu2.desc": "SDK Market Leader",
+    "product.menu3": "Call",
+    "product.menu3.desc": "Real-time, interactive, multimedia calls",
+    "product.menu4": "About Business Message",
+    "product.menu4.desc": "Penetrate into all enterprise service scenarios",
+    "solution": "Solution",
+    "solution.menu1": "Banking Solutions",
+    "case": "Business Case",
+    "aboutUs": "About",
+    "aboutUs.sub.about": "About US",
+    "aboutUs.sub.support": "Support",
+    "aboutUs.menu1": "Our Company",
+    "aboutUs.menu2": "News & Events",
+    "aboutUs.menu3": "Partners",
+    "aboutUs.menu4": "Contact Us",
+    "aboutUs.menu5": "Join our Team"
+  }
+}
